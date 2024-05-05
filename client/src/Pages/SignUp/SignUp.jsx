@@ -32,7 +32,7 @@ const SignUp = () => {
                             />
                         </label>
                         <input type="submit" value="Sign Up"
-                            className='bg-[#FF3811] text-white py-4 w-full rounded-xl' />
+                            className='text-xl font-semibold bg-[#FF3811] text-white py-4 w-full rounded-xl' />
                     </form>
                     <div className='text-center font-medium text-lg space-y-8'>
                         <p >Or Sign Up With</p>
