@@ -2,11 +2,10 @@ import logo from '../assets/logo.svg'
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-[#151515] text-white">
+            <footer className="footer px-36 py-32 bg-[#151515] text-white mt-32">
                 <aside>
                     <img src={logo} alt="" />
-                    <p>Car Doctor</p>
-                    <p>
+                    <p className='w-[283px]'>
                         Edwin Diaz is a software and web technologies engineer, a life coach trainer who is also a serial .
                     </p>
                 </aside>
