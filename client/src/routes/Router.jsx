@@ -3,6 +3,7 @@ import Root from "../layout/Root";
 import SignUp from "../Pages/SignUp/SignUp";
 import Login from "../Pages/Login/Login";
 import AddNewService from "../Pages/AddNewService/AddNewService";
+import Checkout from "../Pages/Checkout/Checkout";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
             {
                 path: "addnewservice",
                 element: <AddNewService/>,
+            },
+            {
+                path: "checkout",
+                element: <Checkout></Checkout>
             }
         ]
     },
